@@ -1,2 +1,2 @@
 # Currents Credit-Management cadCAD
- Simulation environment for testing credit management in a mutual credit ecosystem.
+ Simulation environment with cadCAD for testing credit management in a mutual credit ecosystem.
