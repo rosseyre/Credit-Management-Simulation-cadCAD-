@@ -6,7 +6,7 @@ The model leverages the cadCAD python library to simulate user transactions in a
 The intention is to aid in the design of an automated credit management algorithm for a mutual credit currency ('Currents') to be built on Holochain.
  
 ## Links
-Arkology: https:arkology.co.za <br>
+Arkology: https://arkology.co.za <br>
 Holochain: https://holochain.org/ <br>
 cadCAD: https://cadcad.org/ <br>
 
