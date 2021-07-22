@@ -8,12 +8,10 @@ The model leverages the cadCAD python library to simulate user transactions in a
 
 ## Model purpose
 Mutual credit systems require effective credit limit management to ensure equitable participation. Effectively, in a well functioning credit ecosystem, users should retain a net zero average balance over time, since this corresponds to equitable production and consumption of goods & services. The intention of this cadCAD model is to aid in the design of an automated credit management algorithm that could be utilised in a P2P mutual credit accounting system (built on Holochain, for example).
- 
-In a real world context, a reasonable assumption is that users want to maximise their 'spending capacity' (i.e. their combined balance & credit allowance) since this would allow them to make larger purchases when required. With an automated credit management algorithm in place - influenced by the user's balance over time - one would expect users to respond by altering their spending/earning patterns in order to maximise their spending capacity. In other words, signals such as the user's current 'spending capacity' effect what kinds of transactions they engage in. This is a good thing, since it limits the propensity to extract value from the ecosystem (i.e. by over-spending) and encourages investment in productive potential (i.e. by 'spending' excess rather than accumulating), and is a reason to both include credit limits AND signal their current state to users. 
 
 ## Model scope & limitations
 
-Since the model generates random incoming & outgoing transactions independent of the user's perception of their 'spending capacity', the model is useful insofar as it enables us to observe how the Credit Management algorithm responds in various circumstances. In other words, it is not a agent-based simulation where users might respond to the state of the system according to encoded logics. Instead, paramaters which adjust the relative 'weight' of incoming v.s outgoing transactions (nameley, 'integirty coefficient') are used to test how the Credit Management algorithm responds.
+Since the model generates random incoming & outgoing transactions independent of the user's perception of their 'spending capacity', the model is useful insofar as it enables us to observe how the Credit Management algorithm responds in various circumstances. In other words, it is not an agent-based simulation where users might respond to the state of the system according to encoded logics. Instead, paramaters which adjust the relative 'weight' of incoming v.s outgoing transactions (nameley, 'integirty coefficient') are used to test how the Credit Management algorithm responds.
 
 
 ## Author
